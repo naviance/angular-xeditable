@@ -99,7 +99,7 @@ angular.module('xeditable').factory('editableThemes', function() {
       submitTpl:   '<button class="tiny"><span class="icon-ok"></span></button>',
       cancelTpl:   '<button class="tiny secondary" ng-click="$form.$cancel()">'+
                      '<span class="icon-remove"></span>'+
-                   '</button>',
+                   '</button>'
 
       // //bs3 specific prop to change buttons class: btn-sm, btn-lg
       // buttonsClass: '',
