@@ -13,7 +13,7 @@ angular.module('xeditable', [])
 //todo: maybe better have editableDefaults, not options...
 .value('editableOptions', {
   /**
-   * Theme. Possible values `bs3`, `bs2`, `default`.
+   * Theme. Possible values `bs3`, `bs2`, `default`, `foundation`.
    * 
    * @var {string} theme
    * @memberOf editable-options
