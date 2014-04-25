@@ -1,7 +1,7 @@
 /*!
 angular-xeditable - 0.1.8
 Edit-in-place for angular.js
-Build date: 2014-04-24 
+Build date: 2014-04-25 
 */
 /**
  * Angular-xeditable module 
@@ -1592,8 +1592,8 @@ angular.module('xeditable').factory('editableThemes', function() {
       inputTpl:    '',
       errorTpl:    '<div class="editable-error help-block" ng-show="$error" ng-bind="$error"></div>',
       buttonsTpl:  '<span class="editable-buttons"></span>',
-      submitTpl:   '<button class="small"><span class="icon-ok"></span></button>',
-      cancelTpl:   '<button class="small secondary" ng-click="$form.$cancel()">'+
+      submitTpl:   '<button class="small radius"><span class="icon-ok"></span></button>',
+      cancelTpl:   '<button class="small secondary radius" ng-click="$form.$cancel()">'+
                      '<span class="icon-remove"></span>'+
                    '</button>'
     }
